@@ -1,11 +1,10 @@
 <html>
     <head>
-        <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+        <meta charset="UTF-8">    
         <style>
             body {
-    background: url("bg.jpg") no-repeat center center fixed;
-    /*background: url("bg2.jpg") no-repeat center center fixed;*/
+    /*background: url("bg.jpg") no-repeat center center fixed;*/
+    background: url("bg2.jpg") no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -14,6 +13,7 @@
 
 a {
 	position: relative;
+    top: 100px;
     color: rgba(255,255,255,1);
     text-decoration: none;
     background-color: rgba(219,87,5,1);
@@ -27,7 +27,7 @@ a {
     border-radius: 8px;
     -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
     -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 8px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
     margin: 100px auto;
 	width: 160px;
 	text-align: center;
@@ -47,10 +47,19 @@ a:active {
     top: 6px;
 }
 
+img {
+    position: absolute;
+    margin: auto;
+    top: 60px;
+    left: 0;
+    right: 0;
+}
+
 
 </style>
     </head>
     <body>
-        <a href="http://10.212.11.253:8002/index.php?zone=danangwifi">LOGIN</a>
+        <img src="logo.png" alt="Smiley face" height="120px" width="200px">         
+        <a>LOGIN</a>
     </body>
 </html>
